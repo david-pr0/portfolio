@@ -1,5 +1,6 @@
 import davidAutomoveis from '../../assets/david-automoveis.png';
 import onePiece from '../../assets/one-piece.png';
+import cripto from '../../assets/cripto.png';
 import disneyPlus from '../../assets/disney-plus.png';
 import davidImoveis from '../../assets/david-imoveis.png';
 import drGames from '../../assets/dr-games.png';
@@ -11,6 +12,12 @@ const Projects = () => {
         <div className="container">
             <h2 className="text-center p-5">Projetos finalizados</h2>
             <Ul>
+                <li className="btn btn-dark">
+                    <a href="https://site-analise-cripto-moedas.vercel.app" target="_blanc">
+                        <h3 className='p-2'>Site para análise de cripto moedas</h3>
+                        <img src={cripto} alt="..." className='w-100' />
+                    </a>
+                </li>
                 <li className="btn btn-dark">
                     <a href="https://landing-page-one-piece-delta.vercel.app" target="_blanc">
                         <h3 className='p-2'>Página de steaming com o tema de One Piece</h3>
